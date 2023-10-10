@@ -1,0 +1,32 @@
+@media (max-width: 769px) {
+    
+
+    .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+    .conteudo .nome-personagem {
+        font-size: 36px;   
+    }
+
+    .conteudo .descricao {
+        max-width: 500px;
+    }
+    
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        background-color: transparent
+    }
+
+    .botoes .botao img {
+        max-width: 60px;
+    }
+
+}
+
